@@ -1,23 +1,39 @@
-// Log to console
-console.log('Hello World');
-console.log(120);
-console.log(true);
-var greating = 'Hello';
-console.log(greating);
-console.log([1,2,3,4]);
-console.log({a:1, b:2});
-console.table({a:1, b:2});
+let val;
 
-console.error('This is some error');
-console.clear();
-console.warn('This is a warning');
-console.time('Hello');
-  console.log('Hello World');
-  console.log('Hello World');
-  console.log('Hello World');
-console.timeEnd('Hello');
-/*
- multi
- lane
- coments
-*/
+// number to string
+val = String(555);
+val = String(4+4);
+// BOol to string
+val = String(true);
+// Date to string
+val = String(new Date());
+// Array to string
+val = String([1,2,3,4]);
+
+//toSring()
+val = (5).toString();
+val = (true).toString();
+
+// String to number
+val = Number('5');
+val = Number(true);
+val = Number(false);
+val = Number(null);
+val = Number('hello');
+val = Number([1,2,3]);
+
+val = parseInt('100.30');
+val = parseFloat('100.30')
+
+// //output
+// console.log(val);
+// console.log(typeof val);
+// // console.log(val.length);
+// console.log(val.toFixed(2));
+
+const val1 = String(5);
+const val2 = 6;
+const sum = Number(val1 + val2);
+
+console.log(sum);
+console.log(typeof sum);
